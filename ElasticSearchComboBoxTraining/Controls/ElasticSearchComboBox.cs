@@ -59,10 +59,7 @@ namespace ElasticSearchComboBoxTraining.Controls
         public string SearchContent
         {
             get => GetValue(SearchContentProperty) as string ?? string.Empty;
-            set
-            {
-                SetValue(SearchContentProperty, value);
-            }
+            set => SetValue(SearchContentProperty, value);
         }
     }
 }
