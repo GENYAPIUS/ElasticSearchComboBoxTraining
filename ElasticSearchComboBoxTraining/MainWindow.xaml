@@ -3,10 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ElasticSearchComboBoxTraining"
+        xmlns:controls="clr-namespace:ElasticSearchComboBoxTraining.Controls"
+        xmlns:vm="clr-namespace:ElasticSearchComboBoxTraining"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:MainViewModel></vm:MainViewModel>
+    </Window.DataContext>
     <Grid>
-
+        <controls:ElasticSearchComboBox Height="30" Width="200" SearchContent="test" ItemsSource="{Binding Options}">
+            <controls:ElasticSearchComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}"></TextBlock>
+                </DataTemplate>
+            </controls:ElasticSearchComboBox.ItemTemplate>
+        </controls:ElasticSearchComboBox> 
     </Grid>
 </Window>
