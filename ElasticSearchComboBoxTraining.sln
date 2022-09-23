@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearchComboBoxTraining", "ElasticSearchComboBoxTraining\ElasticSearchComboBoxTraining.csproj", "{3FA7D3F6-FB75-4174-8ED3-162302FDDD4C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingLibrary", "BindingLibrary\BindingLibrary.csproj", "{AA76C05A-6EB2-4060-8DC5-94E680D265E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3FA7D3F6-FB75-4174-8ED3-162302FDDD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA7D3F6-FB75-4174-8ED3-162302FDDD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA7D3F6-FB75-4174-8ED3-162302FDDD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA76C05A-6EB2-4060-8DC5-94E680D265E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA76C05A-6EB2-4060-8DC5-94E680D265E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA76C05A-6EB2-4060-8DC5-94E680D265E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA76C05A-6EB2-4060-8DC5-94E680D265E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
